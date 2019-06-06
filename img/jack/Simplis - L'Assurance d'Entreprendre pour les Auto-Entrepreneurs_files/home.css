@@ -1,0 +1,15 @@
+#h_search { width: 65%; max-width: 760px; margin: 30px auto 0 auto; padding-bottom: 75px; position: relative; }
+#h_search .h_form_title { font-family: 'Lato'; font-weight: normal; letter-spacing: 2px; color: #FFF; margin-bottom: 5px; text-align: center; font-size: 16px; }
+#h_search .h_search_input_wrapper { background: #FFF; border-radius: 5px; width: 100%; margin: 10px auto 15px auto; font-size: 16px; position: relative; }
+#h_search .h_search_input_wrapper span { color: #444444; font-size: 27px; position: absolute; left: 10px; top: 4px; }
+#h_search #h_search_autocomplete { border: none; border-radius: 5px; width: 100%; background: none; padding: 7px 0 7px 45px; }
+#h_search #h_search_list { margin: 10px 0; }
+#h_search #h_search_list select { border: none; padding: 10px 0 10px 10px; letter-spacing: 1px; border-radius: 5px; width: 49%; float: left; }
+#h_search #h_search_list .activities-search-parent { margin-right: 1%; }
+#h_search #h_search_list .activities-search-child { margin-left: 1%; }
+#h_search #h_search_submit { text-align: right; }
+#h_search #h_search_submit .more { display: inline-block; font-style: italic; font-family: 'Lato'; letter-spacing: 1px; margin: 0 20px; }
+#h_search #h_search_submit .more a { color: #FFF; }
+#h_search #h_search_submit .more a:hover { text-decoration: underline; }
+
+/*# sourceMappingURL=home.css.map */

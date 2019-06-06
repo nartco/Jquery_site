@@ -1,0 +1,262 @@
+body{
+  background-color: rgb(132,19,25);
+}
+
+#main-center{
+  padding-top: 20px;
+}
+
+.family{
+  font-family: 'Russo One', sans-serif;
+  text-align: center;
+}
+
+#main-img{
+  width: 60%;
+  box-shadow: 2px 2px 10px black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+
+}
+.logo{
+  width: 50px;
+  height: 40px;
+  position: absolute;
+  top: 3px;
+  left: 10px;
+}
+#navbar{
+  padding-right: 10px;
+  border: 1px solid black;
+  height: 50px;
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 1px;
+}
+#navbar li{
+  margin-top: -5px;
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+}
+#navbar li a{
+  text-decoration: none;
+  color: rgb(254,221,2);
+}
+
+#navbar li a:hover{
+  color: rgb(132,19,25);
+}
+#presentation{
+  text-align: center;
+  margin-top: 40px;
+}
+#presentation div{
+  
+  border: 2px solid rgba(0,0,0,0.5);
+  margin: 29px 30px 10px 140px; 
+  width: 996px;
+}
+#ba{
+  margin: 29px 140px 10px 140px !important;
+  padding-bottom:  50px;
+}
+#details{
+  margin-bottom: 30px !important; 
+}
+h1{
+  text-transform: uppercase;
+  font-size: 28px;
+}
+#baby{
+  position: relative;
+  padding-left: 20px;
+  padding-top: 100px;
+  width: 12%;
+  bottom: 60px;
+}
+#persophoto{
+  height: 400px;
+}
+#bob{
+  width: 20%;
+  position: relative;
+  bottom: 30px;
+}
+#elasti{
+  width: 20%;
+  padding-top: 110px;
+  position: relative;
+  bottom: 110px;
+}
+#violette{
+  padding-top: 110px;
+  width: 11%;
+  position: relative;
+  bottom: 70px;
+}
+#fleche{
+  padding-top: 110px;
+  width: 11%;
+  position: relative;
+  bottom: 70px;
+}
+footer{
+  height: 120px;
+  background-color: #000;
+  border: 0px solid black !important;
+  color: rgb(132,19,25);
+}
+footer h1{
+  position: relative;
+  float: left;
+  top: 10px;
+}
+.copyright{
+  position: relative;
+  right: 320px;
+  top: 40px;
+  float: left;
+}
+.logofo{
+  position: relative;
+  top: 10px;
+  float: left;
+  width: 50px;
+}
+.listfo{
+  list-style: none;
+  float: right;
+  position: relative;
+  right: 50px;
+  top: 15px;
+}
+.listfo a{
+  text-decoration: none;
+  color: rgba(254,221,2,0.7);
+}
+.listfo a:hover{
+  color: rgb(132,19,25);
+}
+
+/* bob */
+
+.navperso{
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.leftnav{
+background-color: rgba(0,0,0,0.7);
+border-width: 3px;
+top: 50px;
+height: 900px;
+width:250px;
+position: fixed;
+padding: 10px;
+}
+.photoleft{
+  height: 30%;
+  position: relative;
+  left: 20px;
+  top: 30px;
+}
+.leftnav h1{
+  font-size: 20px ;
+  position: relative;
+  top: 40px;
+  text-align: center;
+  color: rgb(254,221,2);
+  font-family: 'Russo One', sans-serif;
+}
+.leftnav h1 span{
+  border-bottom: solid 1px rgb(254,221,2);
+}
+.leftp{
+  position: relative;
+  top: 50px;
+  font-size: 15px;
+}
+.centerperso{
+  top: 60px;
+  text-align: center;
+  position: absolute;
+  left: 265px;
+}
+.under{
+  width:1000px !important;
+  height: 3px !important;
+}
+.centerperso h1{
+  margin-bottom: -15px;
+}
+.centerperso a{
+  text-decoration: none;
+  color: rgb(254,221,2);
+}
+.centerperso a:hover{
+  color: rgb(210,190,1);
+}
+.centerperso h1{
+  font-family: 'Russo One', sans-serif;
+  color: rgb(14,14,14);
+}
+.centerperso p{
+  color: rgb(14,14,14) !important;
+}
+.imgperso{
+  height: 200px;
+  width: 400px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+.imageperso, .histoire{
+  margin-top: 30px;
+}
+.histoire img{
+  width: 400px;
+  height: 200px;
+  padding-right: 20px;
+}
+.histoire p{
+  margin-top: 10px;
+}
+#concenter p{
+  text-align: center !important;
+  font-weight: bold;
+}
+#concenter form{
+  position: absolute;
+  left:30%
+}
+#concenter input{
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    width: 300%;
+    border-radius:2px;
+    font:bold  Arial;
+    box-shadow:2px 2px 5px #aaa;
+}
+::placeholder{
+  color: rgb(14,14,14);
+  text-align: center;
+  font-weight: bold;
+}
+#message{
+  size: 300px !important;
+}
+form button{
+  position: relative;
+  left: 230px;
+  text-align: center;
+  border:none;
+  padding:6px 0 6px 0;
+  border-radius:2px;
+  box-shadow:2px 2px 5px #aaa;
+  background:#fff;
+  font:bold 13px Arial;
+  cursor: pointer;
+}

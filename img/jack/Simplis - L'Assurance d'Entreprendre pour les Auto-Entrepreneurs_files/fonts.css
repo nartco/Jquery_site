@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/icomoon.eot?tcdxld');
+    src:    url('../fonts/icomoon.eot?tcdxld#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?tcdxld') format('truetype'),
+        url('../fonts/icomoon.woff?tcdxld') format('woff'),
+        url('../fonts/icomoon.svg?tcdxld#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+    content: "\e907";
+}
+.icon-plus:before {
+    content: "\e906";
+}
+.icon-bouclier:before {
+    content: "\e900";
+}
+.icon-casque:before {
+    content: "\e902";
+}
+.icon-travaux:before {
+    content: "\e903";
+}
+.icon-loupe:before {
+    content: "\e904";
+}
+.icon-euro:before {
+    content: "\e901";
+}
+.icon-info:before {
+    content: "\e905";
+}
+.icon-bonhomme:before {
+    content: "\e908";
+}
+.icon-phone:before {
+    content: "\e909";
+}
